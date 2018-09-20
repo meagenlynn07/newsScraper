@@ -1,0 +1,127 @@
+body { 
+  color: #fff;
+	background: linear-gradient(-45deg, #f9ab13, #e2c25d,#c5dfba, #bfe5cc, #beffde);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+nav {
+  padding: 30px;
+  background-color: #e2c25d;
+  color: #DED5C4;
+  
+}
+
+a.brand-logo {
+  font-size: 40px;
+}
+
+div#articles, div#notes {
+  margin-top: 10px;
+}
+
+div#notes {
+  margin-bottom: 50px;
+}
+
+div.container.main {
+  margin-bottom: 60px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: rgb(124, 124, 124);
+}
+
+#articles {
+  display: inline-block;
+}
+
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: rgba(250, 250, 250, .5);
+  color: #f9ab13;
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+footer.page-footer {
+  background-color: #e2c25d;
+  margin-top: 30px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+div.footer-copyright {
+  padding-top: 0px;
+}
+
+button{
+  background-color: #fff;
+  color: #f9ab13;
+}
